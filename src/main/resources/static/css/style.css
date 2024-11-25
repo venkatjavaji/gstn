@@ -1,0 +1,109 @@
+ /* Global Styling */
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        /* Flash Messages */
+        .alert {
+            font-size: 1rem;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .successMessage {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+
+        .errorMessage {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+
+        /* Form Styling */
+        .form-label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .form-select,
+        .form-control {
+            border: 1px solid #ced4da;
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 0.25rem;
+        }
+
+        .form-select:focus,
+        .form-control:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        button {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        /* File Download Section */
+        #fileDownloadSection {
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #filePathDisplay {
+            font-weight: bold;
+            color: #6c757d;
+        }
+
+        /* Loading Spinner */
+        #loading {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+
+        #loading img {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Custom File Input Styling */
+        #file {
+            border: none;
+        }
+
+        input[type="file"]::file-selector-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="file"]::file-selector-button:hover {
+            background-color: #0056b3;
+        }
